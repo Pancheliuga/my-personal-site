@@ -1,0 +1,26 @@
+{
+  "name": "my-personal-site",
+  "version": "1.0.0",
+  "description": "",
+  "main": ".eleventy.js",
+  "scripts": {
+    "start": "npx eleventy --serve",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pancheliuga/my-personal-site.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pancheliuga/my-personal-site/issues"
+  },
+  "homepage": "https://github.com/Pancheliuga/my-personal-site#readme",
+  "dependencies": {
+    "@11ty/eleventy": "^1.0.0",
+    "@11ty/eleventy-cache-assets": "^2.3.0",
+    "luxon": "^2.3.1"
+  }
+}
