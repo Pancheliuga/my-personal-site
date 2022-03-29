@@ -6,13 +6,13 @@
             class="[ featured-work__heading ] [ headline ] [ color-quinary-shade lg:measure-micro ]"
             data-highlight="dark"
           >
-            {{ featuredWork.title }}
+            {{ featuredProjects.title }}
           </h2>
           <p class="[ featured-work__summary ] [ measure-compact ]">
-            {{ featuredWork.summary }}
+            {{ featuredProjects.summary }}
           </p>
         </div>
-        {% for item in collections.featuredWork %}
+        {% for item in collections.featuredProjects %}
         <a
           href="{{ item.url }}"
           aria-label="See {{ item.data.title }}"

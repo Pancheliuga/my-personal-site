@@ -30,13 +30,13 @@ module.exports = config => {
     }
 
     // Returns work items, sorted by display order
-    config.addCollection('work', collection => {
-        return sortByDisplayOrder(collection.getFilteredByGlob('./src/work/*.md'));
+    config.addCollection('projects', collection => {
+        return sortByDisplayOrder(collection.getFilteredByGlob('./src/projects/*.md'));
     });
     
     // Returns work items, sorted by display order then filtered by featured
-    config.addCollection('featuredWork', collection => {
-        return sortByDisplayOrder(collection.getFilteredByGlob('./src/work/*.md')).filter(
+    config.addCollection('featuredProjects', collection => {
+        return sortByDisplayOrder(collection.getFilteredByGlob('./src/projects/*.md')).filter(
         x => x.data.featured
         );
     });

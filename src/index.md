@@ -1,5 +1,5 @@
 ---
-title: 'Issue 33'
+title: 'Home'
 metaDesc: 'A made up agency site that you build if you take Learn Eleventy From Scratch, by Piccalilli'
 layout: 'layouts/home.html'
 intro:
@@ -7,7 +7,7 @@ intro:
   main: 'Bread & Butter'
   summary: 'Let us help you create the perfect campaign with our multi-faceted team of talented creatives.'
   buttonText: 'See our work'
-  buttonUrl: '/work'
+  buttonUrl: '/projects'
   image: '/images/bg/toast.jpg'
   imageAlt: 'Buttered toasted white bread'
 primaryCTA:
@@ -18,7 +18,7 @@ primaryCTA:
     though. Take the course today!'
   buttonText: 'Buy a copy'
   buttonUrl: 'https://learneleventyfromscratch.com'
-featuredWork:
+featuredProjects:
   title: 'Selected work'
   summary: 'Some stuff that should give you an idea of what we’re all about.'
 studioFeed:
