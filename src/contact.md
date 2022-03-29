@@ -1,5 +1,5 @@
 ---
-title: 'Contact us'
+title: 'Contact me'
 layout: 'layouts/page.html'
 ---
 

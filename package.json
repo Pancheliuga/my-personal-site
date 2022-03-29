@@ -1,7 +1,7 @@
 {
-  "name": "my-personal-site",
+  "name": "pancheliuga.com",
   "version": "1.0.0",
-  "description": "",
+  "description": "Personal website - Pancheliuga Oleksandr",
   "main": ".eleventy.js",
   "scripts": {
     "start": "npx gulp && concurrently \"npx gulp watch\" \"npx eleventy --serve\"",
@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Pancheliuga/my-personal-site.git"
+    "url": "git+https://github.com/Pancheliuga/pancheliuga.com.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Pancheliuga/my-personal-site/issues"
+    "url": "https://github.com/Pancheliuga/pancheliuga.com/issues"
   },
-  "homepage": "https://github.com/Pancheliuga/my-personal-site#readme",
+  "homepage": "https://pancheliuga.com/",
   "dependencies": {
     "@11ty/eleventy": "^1.0.0",
     "@11ty/eleventy-cache-assets": "^2.3.0",
