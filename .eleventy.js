@@ -46,6 +46,11 @@ module.exports = config => {
         return [...collection.getFilteredByGlob('./src/posts/*.md')].reverse();
     });
 
+    // Returns a collection of recent 3 posts in reverse date order
+    config.addCollection('recentPosts', (collection) => {
+        return [...collection.getFilteredByGlob('./src/posts/*.md')].reverse().slice(0,3);
+    });
+
     // Returns a list of people ordered by filename
     config.addCollection('people', collection => {
         return collection.getFilteredByGlob('./src/people/*.md').sort((a, b) => {

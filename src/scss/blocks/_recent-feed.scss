@@ -1,0 +1,33 @@
+.recent-feed {
+  &__list {
+    display: flex;
+    overflow-x: auto;
+    position: relative;
+    padding-top: get-size('300') !important;
+    padding-left: get-size('300') !important;
+    -webkit-overflow-scrolling: touch;
+
+    > * {
+      width: 18rem;
+      display: flex;
+      flex-shrink: 0;
+      padding: 0 0 get-size('400') 0;
+    }
+
+    > * + * {
+      margin-inline-start: get-size('500');
+    }
+  }
+
+  &__action {
+    text-align: center;
+  }
+
+  @include media-query('md') {
+    &__list {
+      > * {
+        width: 24rem;
+      }
+    }
+  }
+}
