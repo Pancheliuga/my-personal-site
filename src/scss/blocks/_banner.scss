@@ -1,0 +1,19 @@
+.banner {
+  // This is a dark panel, so we need to flip the selection styles
+  ::selection {
+    // We set this as an RGBA because that’s how you get a solid color, by using 0.99
+    // alpha value. Browsers are wild.
+    background: rgba(get-color('light'), 0.99);
+    color: get-color('dark-shade');
+  }
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  padding: 0.25em 1em;
+  text-align: center;
+  width: calc(100% + 2rem);
+  margin-left: -1rem;
+  margin-right: -1rem;
+}
