@@ -16,6 +16,6 @@ primaryCTA:
 featuredProjects:
   title: 'Selected projects'
   summary: 'Some stuff that should give you an idea of what I’m all about.'
-studioFeed:
+recentFeed:
   title: 'Recent posts'
 ---

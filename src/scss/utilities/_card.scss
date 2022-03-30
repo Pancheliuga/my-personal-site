@@ -1,0 +1,16 @@
+.card {
+  --flow-space: 0.5rem;
+  display: block;
+  position: relative;
+  padding: get-size('500');
+  text-decoration: none;
+
+  > * {
+    display: block;
+  }
+
+  &:hover {
+    transform: translateY(-0.3rem);
+    transition: transform 250ms ease-out;
+  }
+}
