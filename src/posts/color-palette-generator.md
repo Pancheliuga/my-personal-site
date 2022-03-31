@@ -1,5 +1,6 @@
 ---
 title: 'Color Palette Generator'
+description: 'Placidis tamen. Amnem unda fores et nocent tellus. Ictu undis offensi nostra nempe dextra quod, illa causa expositum, dat?'
 date: '2019-11-16'
 tags: ['Tools']
 ---
@@ -10,7 +11,7 @@ Lorem markdownum ait. Plaustrum gaudet: similis pulsarunt inmortalis multa cui e
 
 ## Cthonius reque missa robore humus perque
 
-Nodum praemia nam postes tellus. Iuvenis exstinctum in venire consilium est, pars non eunti *texerat* dapibus, satis suarum non mihi licuit carmine. Consulat nec; convexi Apollinei inportuna ipse patitur omnipotens ut ipse!
+Nodum praemia nam postes tellus. Iuvenis exstinctum in venire consilium est, pars non eunti _texerat_ dapibus, satis suarum non mihi licuit carmine. Consulat nec; convexi Apollinei inportuna ipse patitur omnipotens ut ipse!
 
 - Veste caelestibus Tyrrhenaque sed
 - Per sacrorum mendacem ut aureus Bromumque haeret

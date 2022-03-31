@@ -1,18 +1,26 @@
-<div class="[ dot-shadow panel ] [ bg-secondary-glare ]" id="post-list">
-    <div class="[ wrapper ] [ flow flow-space-700 ]">
-      {% if postListHeadline %}
-      <h2 class="[ headline ] [ measure-micro ]" data-highlight="primary">
-        {{ postListHeadline }}
-      </h2>
-      {% endif %}
-      <div>
-        <ol class="[ post-list ] [ flow ]">
-          {% for item in postListItems %}
-          <li class="[ post-list__item ] [ leading-tight measure-long ]">
-            <a href="{{ item.url }}" class="post-list__link">{{ item.data.title }}</a>
-          </li>
-          {% endfor %}
-        </ol>
-      </div>
+<div class="[ dot-shadow panel ] [ bg-tertiary-glare ]" id="post-list">
+  <div class="[ wrapper ]">
+    {% if postListHeadline %}
+    <h2 class="[ headline ] [ measure-micro ]" data-highlight="primary">
+      {{ postListHeadline }}
+    </h2>
+    {% endif %}
+    <div>
+      <ol class="[ card-grid ]">
+        {% for item in postListItems %}
+        <li>
+          <a
+            href="{{ item.url }}"
+            class="[ card radius frame ] [ flow ] [ bg-tertiary-shade ]"
+          >
+            <h4 class="[ color-dark-shade ] [ text-600 ]">{{ item.data.title }}</h4>
+            <span class="[ color-dark-shade ] [ leading-flat flow-space-300 ]"
+              >{{ item.data.description }}</span
+            >
+          </a>
+        </li>
+        {% endfor %}
+      </ol>
     </div>
   </div>
+</div>

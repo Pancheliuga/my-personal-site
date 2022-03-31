@@ -1,6 +1,7 @@
 ---
 title: 'Design Thinking & Understanding the Product Design Process'
 date: '2020-02-22'
+description: 'Placidis tamen. Amnem unda fores et nocent tellus. Ictu undis offensi nostra nempe dextra quod, illa causa expositum, dat?'
 tags: 'Design Thinking'
 ---
 

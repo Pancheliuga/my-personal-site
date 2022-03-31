@@ -1,11 +1,9 @@
 {% extends "layouts/base.html" %}  
 
-{% set pageCriticalStyles = ['css/work-item.css'] %}
-
-{% set peopleItems = helpers.filterCollectionByKeys(collections.people, team) %}
+{% set pageCriticalStyles = ['css/project-item.css'] %}
 
 {% block content %}
-<section class="work-item">
+<section class="project-item">
   <header class="hero">
     <div class="[ hero__inner ] [ wrapper ]">
       <div class="[ hero__content ] [ dot-shadow radius flow ] [ bg-dark-shade color-light flow-space-400 ]">
@@ -53,16 +51,6 @@
       {% endfor %}
     </article>
   </div>
-  {% if peopleItems %}
-  <article class="[ no-js-hidden ] [ panel dot-shadow ] [ bg-light-glare ]">
-    <div class="[ wrapper ] [ flow flow-space-700 ]">
-      <h2 class="[ headline ] [ measure-micro color-quinary ]" data-highlight="dark">
-        Meet the team behind this project
-      </h2>
-      {% include "partials/people.html" %}
-    </div>
-  </article>
-{% endif %}
 </section>
 
 {% include "partials/cta.html" %} 
