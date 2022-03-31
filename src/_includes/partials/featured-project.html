@@ -1,14 +1,14 @@
-<article class="[ featured-work ] [ dot-shadow panel ] [ bg-light-glare ]">
+<article class="[ featured-project ] [ dot-shadow panel ] [ bg-light-glare ]">
     <div class="[ wrapper ] [ flow ]">
-      <div class="[ featured-work__inner ] [ flow ]">
-        <div class="[ featured-work__intro ] [ flow flow-space-300 ]">
+      <div class="[ featured-project__inner ] [ flow ]">
+        <div class="[ featured-project__intro ] [ flow flow-space-300 ]">
           <h2
-            class="[ featured-work__heading ] [ headline ] [ color-quinary-shade lg:measure-micro ]"
+            class="[ featured-project__heading ] [ headline ] [ color-quinary-shade lg:measure-micro ]"
             data-highlight="dark"
           >
             {{ featuredProjects.title }}
           </h2>
-          <p class="[ featured-work__summary ] [ measure-compact ]">
+          <p class="[ featured-project__summary ] [ measure-compact ]">
             {{ featuredProjects.summary }}
           </p>
         </div>
@@ -16,7 +16,7 @@
         <a
           href="{{ item.url }}"
           aria-label="See {{ item.data.title }}"
-          class="[ featured-work__item ] [ frame ]"
+          class="[ featured-project__item ] [ frame ]"
           data-frame="quaternary"
         >
           <img
@@ -28,7 +28,7 @@
         </a>
         {% endfor %}
       </div>
-      <div class="[ featured-work__action ] [ flow-space-700 ]">
+      <div class="[ featured-project__action ] [ flow-space-700 ]">
         <a href="/projects/" class="button">See more</a>
       </div>
     </div>

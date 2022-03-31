@@ -1,5 +1,6 @@
 ---
 title: 'A Complete Guide to Wireframe Design'
+description: 'Placidis tamen. Amnem unda fores et nocent tellus. Ictu undis offensi nostra nempe dextra quod, illa causa expositum, dat?'
 date: '2020-04-13'
 tags: ['Tutorial', 'Learning']
 ---

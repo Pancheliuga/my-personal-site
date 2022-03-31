@@ -5,17 +5,47 @@
 {% set peopleItems = collections.people %} 
 
 {% block content %}
-  <article>
-    {% include "partials/page-header.html" %} 
-    {% if peopleItems %} 
-      <div class="[ no-js-hidden ] [ panel dot-shadow ] [ bg-light-glare ]">
-        <div class="[ wrapper ] [ flow flow-space-700 ]">
-          <h2 class="[ headline ] [ measure-micro color-quinary ]" data-highlight="dark">Meet the team</h2>
-          {% include "partials/people.html" %}
-        </div>
+  <article class="[ panel ] [ bg-light-glare ]">
+    <div class="[ wrapper ] [ flow ]">
+      <h1 class="[ page-header__heading ] [ headline ]" data-highlight="primary">
+        {{ pageHeaderTitle }}
+      </h1>
+      <div class="[ sidebar ] [ article-with-sponsors ]">
+        <article>
+          <div class="[ flow ]">
+            {{ content | safe }}
+          </div>
+        </article>
+        <figure class="[ person ] [ frame ]" data-frame="quaternary">
+          <img
+            class="[ person__image ] [ radius ]"
+            src="{{ image }}"
+            alt="{{ imageAlt }}"
+            draggable="false"
+            oading="lazy"
+          />
+        </figure>
+      </div>  
+  </div>
+  </article>
+  <article class="[ key-facts ] [ panel dot-shadow ] [ bg-primary-shade color-light ]">
+    <div class="wrapper flow">
+      <h2 class="headline" data-highlight="secondary">Key facts</h2>
+      <div class="leading-flat font-sans weight-bold flow-space-700">
+        <ol class="[ key-facts__list ] [ auto-grid ]">
+          {% for item in keyFacts %}
+            <li class="flow flow-space-300">
+              <span class="text-700 lg:text-800 color-secondary-glare"
+                >{{ item.primary }}</span
+              >
+              <span class="text-600 lg:text-700">{{ item.secondary }}</span>
+            </li>
+          {% endfor %}
+        </ol>
       </div>
-    {% endif %}
+    </div>
   </article>
 
   {% include "partials/cta.html" %} 
 {% endblock %}
+

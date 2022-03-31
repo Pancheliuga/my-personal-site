@@ -1,0 +1,21 @@
+.sidebar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--sidebar-gutter,clamp(1.09rem,1rem + .47vw,1.33rem));
+
+    &:first-child {
+        flex-basis: 0;
+        flex-grow: 999;
+        min-width: calc(70% - var(--sidebar-gutter,clamp(1.09rem,1rem + .47vw,1.33rem)));
+    }
+
+    &>* {
+        flex-grow: 1;
+        flex-basis: var(--sidebar-width,16rem);
+    }
+}
+
+.article-with-sponsors {
+    --sidebar-gutter: clamp(1.37rem, 1.21rem + 0.8vw, 1.78rem);
+    --sidebar-width: 20rem;
+}

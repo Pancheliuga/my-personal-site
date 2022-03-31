@@ -1,5 +1,6 @@
 ---
 title: 'Why cross-cultural design really matters'
+description: 'Placidis tamen. Amnem unda fores et nocent tellus. Ictu undis offensi nostra nempe dextra quod, illa causa expositum, dat?'
 date: '2020-04-01'
 tags: ['Culture', 'Design Thinking']
 ---
