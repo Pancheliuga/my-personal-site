@@ -1,9 +1,8 @@
 ---
 title: 'About me'
-layout: 'layouts/about.html'
-permalink: '/about/index.html'
-image: '/images/people/profile-photo.jpg'
-imageAlt: 'A picture of me!'
+description: 'A smattering of my main interests, skills, and experience.'
+date: '2022-04-26'
+tags: ['personal', 'experience', 'skills']
 ---
 
 Hi, I'm Oleksandr Pancheliuga — a geospatial / GIS data analyst — based in Ukraine 🇺🇦. I'm skilled in spatial data processing and analysis, remote sensing, large dataset modeling, web tool development, and data visualization.
