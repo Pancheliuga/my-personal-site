@@ -2,7 +2,7 @@
 title: 'The very first post'
 description: 'A short story about why this website appeared.'
 date: '2022-04-25'
-tags: ['Personal', 'Life']
+tags: ['personal', 'life']
 ---
 
 I am from Ukraine 🇺🇦, and I have lived in the war for two months now. [Millions of Ukrainians lost everything that mattered before](https://www.un.org/press/en/2022/sc14865.doc.htm), and the war dramatically changed our lives. 
