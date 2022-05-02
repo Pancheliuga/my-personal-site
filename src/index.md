@@ -10,7 +10,7 @@ intro:
   imageAlt: 'A visualization of the worlds ships traffic'
 primaryCTA:
   title: 'Follow for updates'
-  summary: 'The best way to stay tuned with me!'
+  summary: 'The best way to stay tuned with me ⬇️'
   buttonText: 'Follow on LinkedIn'
   buttonUrl: 'https://www.linkedin.com/in/pancheliuga/'
 featuredProjects:
