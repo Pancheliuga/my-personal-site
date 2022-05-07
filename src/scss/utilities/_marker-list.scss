@@ -1,0 +1,15 @@
+.marker-list {
+    margin: 0 0 0 get-size('500') !important;
+
+    li {
+      padding-left: 0.3rem;
+  
+      &::marker {
+        content: attr(data-icon);
+        // Make slightly larger than the li font-size
+        // but smaller than the li grid-gap
+        font-size: get-size('500');
+        color: get-color('tertiary-shade');
+      }
+    }
+  } 
