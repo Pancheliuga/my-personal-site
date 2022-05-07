@@ -22,7 +22,7 @@
             src="{{ image }}"
             alt="{{ imageAlt }}"
             draggable="false"
-            oading="lazy"
+            loading="lazy"
           />
         </figure>
       </div>  
@@ -30,18 +30,18 @@
   </article>
   <article class="[ key-facts ] [ panel dot-shadow ] [ bg-primary-shade color-light ]">
     <div class="wrapper flow">
-      <h2 class="headline" data-highlight="secondary">Key facts</h2>
-      <div class="leading-flat font-sans weight-bold flow-space-700">
-        <ol class="[ key-facts__list ] [ auto-grid ]">
+      <h2 class="headline" data-highlight="secondary">Skills & Competencies</h2>
+      <div class=" leading-flat font-sans weight-bold flow-space-700">
+        <ol class="[ marker-list ] [ auto-grid ]">
           {% for item in keyFacts %}
-            <li class="flow flow-space-300">
-              <span class="text-700 lg:text-800 color-secondary-glare"
-                >{{ item.primary }}</span
-              >
-              <span class="text-600 lg:text-700">{{ item.secondary }}</span>
+            <li class="flow flow-space-300" data-icon="{{ item.icon }}">
+              <span class="text-500 lg:text-600">{{ item.description }}</span>
             </li>
           {% endfor %}
         </ol>
+      </div>
+      <div class="[ key-facts__action ] [ flow-space-700 ]">
+        <a class="button" data-variant="ghost" href="/assets/Oleksandr_Pancheliuga_CV.pdf" target="_blank">My CV</a>
       </div>
     </div>
   </article>
@@ -49,3 +49,4 @@
   {% include "partials/cta.html" %} 
 {% endblock %}
 
+     

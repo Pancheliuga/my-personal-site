@@ -4,9 +4,20 @@ layout: 'layouts/about.html'
 permalink: '/about/index.html'
 image: '/images/people/profile-photo.jpg'
 imageAlt: 'A picture of me!'
+keyFacts:
+  - icon: '🌎'
+    description: 'Google Earth Engine'
+  - icon: '🗺️'
+    description: 'SAR RGB visualization'
+  - icon: '🛰️'
+    description: 'SAR change detection'
+  - icon: 'JS'
+    description: 'JavaScript'
+  - icon: '🐍'
+    description: 'geemap - Python package'
 ---
 
-Hi, I'm Oleksandr Pancheliuga — a geospatial / GIS data analyst — based in Ukraine 🇺🇦. I'm skilled in spatial data processing and analysis, remote sensing, large dataset modeling, web tool development, and data visualization.
+Hi, I'm Oleksandr Pancheliuga — a geospatial / GIS data analyst — based in Ukraine 🇺🇦. I'm skilled in spatial data processing and analysis, remote sensing, web tool development, and data visualization.
 
 After graduating Master's degree in Geographic information systems and technologies ([National university of water and environmental engineering](https://nuwm.edu.ua/en/), 2008), I started my own company. 
 
