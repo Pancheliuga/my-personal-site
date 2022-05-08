@@ -5,7 +5,7 @@ layout: 'layouts/home.html'
 intro:
   eyebrow: 'Welcome 👋,'
   main: 'I’m Oleksandr Pancheliuga'
-  summary: 'I’m glad you’re here. I write down what I have learned interesting during my journey with geospatial data and technology. Enjoy exploring!'
+  summary: 'Glad you’re here. I share what I have learned interesting during my journey with geospatial data and technology. Enjoy exploring!'
   image: '/images/bg/bg.jpg'
   imageAlt: 'A visualization of the worlds ships traffic'
 primaryCTA:

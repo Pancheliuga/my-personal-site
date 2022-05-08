@@ -7,5 +7,14 @@ $generate-utility-classes: false;
 // Next: pull in Gorko for design tokens
 @import '../../node_modules/gorko/gorko.scss';
 
+// Generic styles
+time[datetime] {
+    display: block;
+    color: get-color('primary-shade');
+    font-style: italic;
+  }
+
 // Pull in blocks
 @import 'blocks/hero';
+@import 'blocks/page-content';
+

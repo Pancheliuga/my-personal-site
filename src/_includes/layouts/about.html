@@ -28,7 +28,7 @@
       </div>  
   </div>
   </article>
-  <article class="[ key-facts ] [ panel dot-shadow ] [ bg-primary-shade color-light ]">
+  <!-- <article class="[ key-facts ] [ panel dot-shadow ] [ bg-primary-shade color-light ]">
     <div class="wrapper flow">
       <h2 class="headline" data-highlight="secondary">Skills & Competencies</h2>
       <div class=" leading-flat font-sans weight-bold flow-space-700">
@@ -44,9 +44,10 @@
         <a class="button" data-variant="ghost" href="/assets/Oleksandr_Pancheliuga_CV.pdf" target="_blank">My CV</a>
       </div>
     </div>
-  </article>
+  </article> -->
 
-  {% include "partials/cta.html" %} 
+{% set ctaContent = primaryCTA %} 
+{% include "partials/cta.html" %} 
 {% endblock %}
 
-     
+       
