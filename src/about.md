@@ -15,6 +15,11 @@ keyFacts:
     description: 'JavaScript'
   - icon: '🐍'
     description: 'geemap - Python package'
+primaryCTA:
+  title: 'My skills in action'
+  summary: 'Click the button below ⬇️ to see how I implemented my knowledge in real-world cases.'
+  buttonText: 'Portfolio'
+  buttonUrl: '/cases/'
 ---
 
 Hi, I'm Oleksandr Pancheliuga — a geospatial / GIS data analyst — based in Ukraine 🇺🇦. I'm skilled in spatial data processing and analysis, remote sensing, web tool development, and data visualization.

@@ -1,10 +1,12 @@
 .marker-list {
-    margin: 0 0 0 get-size('500') !important;
-
+ 
     li {
-      padding-left: 0.3rem;
+      display: grid;
+      grid-template-columns: 0 1fr;
+      grid-gap: 1.75em;
+      align-items: start;
   
-      &::marker {
+      &::before {
         content: attr(data-icon);
         // Make slightly larger than the li font-size
         // but smaller than the li grid-gap

@@ -17,7 +17,7 @@ According to the materials I mentioned above ⬆️, the workflow looks like thi
 
 ![workflow schema](/images/projects/flood_mapping_GEE_workflow_1.png)
 
-The self-explained [GEE code](https://github.com/Pancheliuga/flood-mapping-damage-assessment/blob/main/gee-script) you can find on my [GitHub repo](https://github.com/Pancheliuga/flood-mapping-damage-assessment).
+The [GEE script](https://github.com/Pancheliuga/flood-mapping-damage-assessment/blob/main/gee-script) with comments you can find on my [GitHub repo](https://github.com/Pancheliuga/flood-mapping-damage-assessment). Or, if you have a GEE account, follow the [link](https://code.earthengine.google.com/82d3678ce0faec31838fb80130d04b3d).
 
 Visualization is a crucial part of geospatial data analysis, so I made a [GEE App](https://pancheliuga.users.earthengine.app/view/flood-mapping) where you can find 'numbers' and examine existing layers to understand the region of interest better. 
 
