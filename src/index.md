@@ -14,7 +14,7 @@ primaryCTA:
   buttonText: 'Follow on LinkedIn'
   buttonUrl: 'https://www.linkedin.com/in/pancheliuga/'
 featuredProjects:
-  title: 'Selected case studies'
+  title: 'Selected projects'
   summary: 'Some stuff that should give you an idea of what I’m all about.'
 recentFeed:
   title: 'Recent posts'

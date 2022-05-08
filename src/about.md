@@ -1,5 +1,5 @@
 ---
-title: 'About me'
+title: 'About Me'
 layout: 'layouts/about.html'
 permalink: '/about/index.html'
 image: '/images/people/profile-photo.jpg'
@@ -19,7 +19,7 @@ primaryCTA:
   title: 'My skills in action'
   summary: 'Click the button below ⬇️ to see how I implemented my knowledge in real-world cases.'
   buttonText: 'Portfolio'
-  buttonUrl: '/cases/'
+  buttonUrl: '/projects/'
 ---
 
 Hi, I'm Oleksandr Pancheliuga — a geospatial / GIS data analyst — based in Ukraine 🇺🇦. I'm skilled in spatial data processing and analysis, remote sensing, web tool development, and data visualization.
