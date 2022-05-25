@@ -1,5 +1,6 @@
 const rssPlugin = require('@11ty/eleventy-plugin-rss');
 const safeLinks = require('@sardine/eleventy-plugin-external-links');
+const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 
 // Filters
 const dateFilter = require('./src/filters/date-filter.js');
@@ -18,6 +19,7 @@ module.exports = config => {
     // Plugins
     config.addPlugin(rssPlugin);
     config.addPlugin(safeLinks);
+    config.addPlugin(syntaxHighlight);
 
     // Add filters
     config.addFilter('dateFilter', dateFilter);
