@@ -1,8 +1,8 @@
 .page-content {
   @include apply-utility('leading', 'loose');
 
-  > * {
-    @include apply-utility('measure', 'long');
+ * {
+    @include apply-utility('measure', 'long'); 
   }
 
   blockquote {
