@@ -6,7 +6,7 @@ intro:
   eyebrow: 'Welcome 👋,'
   main: 'I’m Oleksandr Pancheliuga'
   summary: 'Glad you’re here. I share what I have learned interesting during my journey with geospatial data and technology. Enjoy exploring!'
-  image: '/images/bg/bg.jpg'
+  image: '/images/projects/heatmap.png'
   imageAlt: 'A visualization of the worlds ships traffic'
 primaryCTA:
   title: 'Follow for updates'

@@ -7,7 +7,7 @@ tags: ['personal', 'life']
 
 I am from Ukraine 🇺🇦, and I have lived in the war for two months now. [Millions of Ukrainians lost everything that mattered before](https://www.un.org/press/en/2022/sc14865.doc.htm), and the war dramatically changed our lives. 
 
-**Today we must learn to live in a new reality.**
+>Today we must learn to live in a new reality.
 
 One of the key messages we hear nowadays is to be efficient and productive in your current role. I focused on my own local business for over a decade, but now I have lost my job. That's why the decision to find a remote position on the global market looks reasonable. 
 
