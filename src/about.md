@@ -31,5 +31,5 @@ My specialization and interests are focused on:
 Listed below are some of the technologies I use:
 - Programming languages: Python, Javascript
 - Remote sensing/GIS: Google Earth Engine (JS and Python APIs), OGR/GDAL, QGIS
-- Python packages: pandas, geopandas, geopy, osmnx, matplotlib, geemap, numpy, rasterio, xarray, folium, pyplot
+- Python packages: pandas, geopandas, geopy, osmnx, matplotlib, geemap, numpy, rasterio, xarray, folium, plotly
 - Web development: Streamlit, Google Earth Engine Apps, HTML, CSS, Jamstack
