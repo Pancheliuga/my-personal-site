@@ -1,5 +1,5 @@
 ---
-title: 'Spatial Data Analisis of Civilian Harm in Ukraine'
+title: 'Spatial Data Analysis of Civilian Harm in Ukraine'
 description: 'Geospatial data science approach for statistical visualization.'
 date: '2022-05-24'
 tags: ['jupyter', 'spatial data analysis', 'pandas', 'geopandas', 'folium', 'pyplot']
@@ -202,7 +202,7 @@ incidents_df.info()
     memory usage: 25.1+ KB
 
 
-## Statistical analisis
+## Statistical analysis
 
 #### Analysing civilian harm by type of affected area
 
