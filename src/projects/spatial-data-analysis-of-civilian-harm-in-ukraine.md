@@ -1,7 +1,7 @@
 ---
 title: 'Spatial Data Analysis of Civilian Harm in Ukraine'
 summary: 'Geospatial data science approach for statistical visualization.'
-displayOrder: 2
+displayOrder: 3
 featured: true
 hero:
   image: '/images/projects/heatmap.png'
