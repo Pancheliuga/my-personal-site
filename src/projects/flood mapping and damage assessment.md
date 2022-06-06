@@ -1,7 +1,7 @@
 ---
 title: 'Flood Mapping and Damage Assessment'
 summary: 'Consequences of intentionally flooding the countryside in the Irpin River basin northwest of Kyiv.'
-displayOrder: 1
+displayOrder: 2
 featured: true
 hero:
   image: '/images/projects/flood.gif'
